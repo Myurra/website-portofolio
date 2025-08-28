@@ -1,0 +1,17 @@
+@import "tailwindcss";
+body {
+  background-color: black;
+}
+:root {
+  --primary: #84a98c;
+  --secondary: #52796f;
+  --accent: #354f52;
+}
+
+.bg-satu {
+  background-color:  var(--primary);
+}
+
+.bg-dua {
+  background-color: var(--secondary);
+}
