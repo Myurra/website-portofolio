@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { skills, languages } from "./data/skilldata";
-import type { Skill, GalleryItem } from "./data/skilldata";
+import { skills, languages } from "./data/skillData";
+import type { Skill, GalleryItem } from "./data/skillData";
 
 const SkillsAndExpertise = () => {
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
